@@ -19,34 +19,34 @@
   }
   .profile
   {
-  	width: 400rem;
+  	width: 400px;
   	background-color: rgba(0,0,0,0.7);
-  	padding: 30rem 0;
+  	padding: 30px 0;
   	border-radius: 10%; 
   }
   img{
-  	height: 250rem;
+  	height: 250px;
   	border-radius: 70%;
   }
    .profileText {
-  	margin-bottom: 10rem;
+  	margin-bottom: 10px;
   }
 
   
   .profileText h2{
   	font-size: 2em;
   	font-weight: 500;
-  	margin-bottom: 10rem;
+  	margin-bottom: 10px;
   }
   .profileText h3{
   	font-size: 1.3em;
   	font-weight: 500;
-  	margin-bottom: 10rem;
+  	margin-bottom: 10px;
   }
    .profileText h4{
   	font-size: 1.4em;
   	font-weight: 500;
-  	margin-bottom: 20rem;
+  	margin-bottom: 20px;
   }
 @media(max-width:998px)
 	{
