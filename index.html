@@ -14,6 +14,8 @@
 
 </head>
 <body>
+	<section>
+		<form action="https://formspree.io/f/mvodajpl" method="POST" id="my-form">
 
 	<div class="backimg">
 		<div class="profile" >
@@ -45,30 +47,59 @@
 			<i class="fab fa-youtube fa-2x"></i>
 			<a href="https://www.snapchat.com/add/beingshahid18" target="_blank"></a>
 			<i class="fab fa-snapchat-square fa-2x"></i>
+
 			 <div class="contact">
         <h5>If you have any Query or any information about it then Feel free to ..</h5>
         <h3>Contact Me 📞💕</h3>
-        Name: SHAIKH SHAHID BASHID,
+        Name: SHAIKH SHAHID BASHID
         <br>
         G-mail :beingshahidshaikh18@gmail.com
+        <br><br>
 
-
-        <div class="form">
-            <form method="post" autocomplete="off" name="google-sheet">
-                <h6>Name</h6>
-                <input type="text" name="Name" placeholder="Enter your Name">
-                <h6>Email</h6>
-                <input type="email" name="E-mail" placeholder="Enter your E-mail">
-                <h6>Phone</h6>
-                <input type="phone" name="Phone" placeholder="Enter your Phone Number">
-                
+        <div class="main">
+        	<div class="register">
+        		<label>First Name :</label>
+        		<br>
+        		<input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+        		<br>
+        		<label>last Name :</label>
+        		<br>
+        		<input type="text" name="fname" id="name" placeholder="Enter Your last Name">
+        		<br>
+        		<label> your age :</label>
+        		<br>
+        		<input type="number" name="age" id="name" placeholder="How old you are?"><br>
+        		<label>Email :</label>
+        		<br>
+        		<input type="email" name="email" id="name" placeholder="Enter your Valid Email">
+        		<br><br>
+        		<label>Gender :</label>
+        		<br>
+        		&nbsp;&nbsp;&nbsp;&nbsp;
+        		<input type="radio" name="Gender" id="male">
+        			&nbsp;
+        			<span id="male">male</span>
+        				&nbsp;&nbsp;&nbsp;&nbsp;
+        				<input type="radio" name="Gender" id="female">
+        					&nbsp;
+        					<span id="female">Female</span>
+        					<br>
                 <h6>Message</h6>
                 <textarea name = "Message" placeholder="Enter msg here !" name="ta" id="ta" cols="25" rows="3"></textarea>
-                <Button id="send">Send</Button>
-            </form>
+                <input type="submit" name="submit" name="submit" id="submit">
+                <div id="status" class="Success"></div>
+
+   </form>
+
+        	</div>
+        </div>
+            </div>
         </div>
 
     </div>
 	</div>
+	</section>
+	
+	<script src="./main.js"></script>
 </body>
 </html>
